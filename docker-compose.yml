@@ -54,7 +54,7 @@ services:
 
 
   grafana:
-    # image: grafana/grafana:latest
+    image: grafana/grafana:latest
     build: .
     container_name: grafana
     volumes:
@@ -69,6 +69,9 @@ services:
      - "3000:3000"
     # expose:
     #    - "3000"
+    command: >
+      bash -c '
+      grafana-cli plugins install redis-datasource '
     networks:
       - monitor-net
 
@@ -126,4 +129,4 @@ services:
 # docker-compose up -d
 # docker-compose restart
 # Grafana Settings --> Datasource --> Add Datasource --> Search Redis --> Address: redis://ip.6379 --> Save & Test
-# If redis not work then go inside of the grafana folder and run grafana-cli plugins install redis-datasource then run docker-compose restart
+# If redis not work then go inside of the grafana folder and run " grafana-cli plugins install redis-datasource " then run " docker-compose restart ""

@@ -1,0 +1,49 @@
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+{
+  "manifestVersion": "2.0.0",
+  "signatureType": "commercial",
+  "signedByOrg": "redis",
+  "signedByOrgName": "RedisGrafana",
+  "rootUrls": [],
+  "plugin": "redis-datasource",
+  "version": "2.1.1",
+  "time": 1642565720542,
+  "keyId": "7e4d0c6a708866e7",
+  "files": {
+    "img/variables.png": "810cebb76578731eb92d4b459ad807552eeaa31a732c75d20b0bdcc439d67174",
+    "img/redis-streaming.png": "d373dbdef8131408e63230026b4be8e640a2b280e94e6d4d5fc8f6e91d689c68",
+    "img/redis-dashboard.png": "e9220aa8a63906e15368178508c24931ab53a09b9eca85a8a2b756f1fa4b20ec",
+    "img/query.png": "f9193dfb9c13b6e00b8e5666d2dcd8ae7430cb0a5b2bd1cbe05c679056e9cc08",
+    "img/datasource.png": "94b79127063a2f6f063956a05a57eb6a284bf56c7fd9034235f39ac764b6e109",
+    "img/logo.svg": "85f46e9846485bded836593d7c9fa6e8bb78f43b8665f3b4495cd280de4ea18c",
+    "img/grafana-marketplace.png": "4ffd3b84b15df809ee0afa389e7e88051e8ce622c7b3ff0bd56520c04c652712",
+    "module.js.map": "bb43d54d778d26b2ba466b1e2e3e930543b3e3251710af81b99f6114df253028",
+    "CHANGELOG.md": "302ccdc76653907feaa8ce28de6d156daae8e600c66e4ca8651df410627c4622",
+    "redis-datasource_darwin_amd64": "0f8c7ce7bd9af731a929ac5c4774e67d3f5e1f44b86510b8c089a03fc634c55b",
+    "plugin.json": "936405a3766d0b7c8848fd4455b54ae222c83a4b32a9edd164be2626a209a24e",
+    "README.md": "646551fadffc1f88a0dd38c293c21595371a3ad51643ea7c0632e2571f35b626",
+    "redis-datasource_darwin_arm64": "6f22d588600a51143b187dd0b7e0c4e9ee55266c58f38720fa502d40fe7eb31b",
+    "redis-datasource_linux_amd64": "3c2df4d86244c20efc1c577eb60a2232823ca18062e3544b133dc4502973b9f4",
+    "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
+    "redis-datasource_linux_arm": "ff1b319b2d20f518f1695ac9e2d49869b3512b738727f951fc3074a51d47a260",
+    "redis-datasource_linux_arm64": "41d50e09e953ebf1def0cec54f348b26d2286645610b71eb6d65397e2c56c9b0",
+    "dashboards/redis.json": "17ae3a9ebb5554e7d3a7bdd0c23d016a9c96042dd778ee45fa5a7b4f31364c03",
+    "dashboards/redis-streaming-v8.json": "ee479019a6242da71b0c53e2efda1c389e730d04ceb2d42f82f7d6bf3e68f74a",
+    "redis-datasource_windows_amd64.exe": "17fa8c8b477f6cf6e6b94cc0edb0ce438dce3be0f1286c85dad62e1ea563b0f9",
+    "LICENSE": "377c8b86e8476fc7a309040475e138d2be464aff5d0a41579fb956b21dc652e3",
+    "module.js": "7af9956c47285421afa57922372832ee800700fe44001f7cbb6f8d9c3e4f9f99"
+  }
+}
+-----BEGIN PGP SIGNATURE-----
+Version: OpenPGP.js v4.10.1
+Comment: https://openpgpjs.org
+
+wqIEARMKAAYFAmHnkFgACgkQfk0ManCIZuf+vgIJAd2IBDZXwxQMYGx1Kzr/
+4/ipX/XNjKvSRx+y6cd9KI+EpKzRMm1Ucog5dEQTjXtOIW6KXMRHX7fxsyDv
+M5L4bLQNAgkBYSnAW5erqhESDCrd4uVCBlkuSNfrBKyhvJbLBkQW2jBcEG+w
+BEAhBkKI57KKDqwm2IvLDIDHDgajvG3PX0RgjPU=
+=thq5
+-----END PGP SIGNATURE-----

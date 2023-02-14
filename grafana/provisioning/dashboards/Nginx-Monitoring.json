@@ -1021,8 +1021,8 @@
     ]
   },
   "timezone": "",
-  "title": "Nginx Monitoring",
-  "uid": "2",
+  "title": "Nginx-Monitoring",
+  "uid": "02",
   "version": 1,
   "weekStart": ""
 }

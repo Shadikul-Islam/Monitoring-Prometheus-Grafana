@@ -2116,7 +2116,7 @@
     "type": "timepicker"
   },
   "timezone": "browser",
-  "title": "VM Monitoring",
-  "uid": "1",
+  "title": "VM-Monitoring",
+  "uid": "05",
   "version": 45
 }

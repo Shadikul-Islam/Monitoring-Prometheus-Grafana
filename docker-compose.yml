@@ -78,7 +78,7 @@ services:
     container_name: nginx
     ports:
       - "80:80" 
-      - "8080:8080"
+      - "81:81"
     # expose:
     #   # - "80"
     #   - "8080"
@@ -96,7 +96,7 @@ services:
        - "9113"
     command:
       - -nginx.scrape-uri
-      - http://nginx:8080/stub_status
+      - http://nginx:81/stub_status
     networks:
       - monitor-net
 
@@ -120,6 +120,19 @@ services:
         - "9121"    
       networks:
        - monitor-net
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+    - 8080:8080
+    volumes:
+    - /:/rootfs:ro
+    - /var/run:/var/run:rw
+    - /sys:/sys:ro
+    - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+     - monitor-net
 
 # mv dot-env .env
 # docker-compose build --no-cache

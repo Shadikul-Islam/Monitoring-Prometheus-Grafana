@@ -4,27 +4,13 @@ scrape_configs:
     static_configs:
       - targets: ['nodeexporter:9100']
 
-
-  - job_name: 'prometheus'
-    scrape_interval: 5s
-    static_configs:
-      - targets: ['localhost:9090']
-
-
-  - job_name: 'nginx-exporter'
-    scrape_interval: 5s
-    static_configs:
-      - targets: ['nginxexporter:9113']
-
-
-  - job_name: 'redis-exporter'
-    scrape_interval: 5s
-    static_configs:
-      - targets: ['redisexporter:9121']
-
-
   - job_name: cadvisor
     scrape_interval: 5s
     static_configs:
       - targets: ['cadvisor:8080']
+
+  - job_name: 'docker-daemon'
+    static_configs:
+      - targets: ["192.168.1.65:9323"]
+
 
